@@ -1,0 +1,32 @@
+/* Main idea: yummy and friendly */
+h1{
+    color: blueviolet;
+    border-color: black;
+    border-width: thick;
+    border-style: solid;
+}
+
+body{
+    background: url(/home/jgp/Documents/GitHub/Web-Practice/site-background.jpg);
+}
+
+
+span{
+    color: greenyellow;
+    background-color: black;
+}
+
+
+/* A class */
+.table{
+    background-color: rgb(105, 117, 99);
+}
+
+/* an ID */
+#survey{
+    color:coral;
+}
+
+*{
+    background: white;
+}
