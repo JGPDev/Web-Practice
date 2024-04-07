@@ -10,17 +10,19 @@
 <body>
     <!-- Cookie image with link -->
     <a href="https://www.youtube.com/watch?v=nklRiQXkY9o">
-        <img src="Snickerdoodle.jpg" alt="Picture of yumyum cookies." width="400px" height="400px"> 
+        <img src="Snickerdoodle.jpg" alt="Picture of yumyum cookies." width="400px" height="400px">
     </a>
-    
+
     <!-- Welcome text -->
     <h1>Welcome to the website! </h1>
     <h2>We all love snickerdooles!</h2>
     <p>My family <strong>loves </strong>when I make some. I personally like them a bit on the <em>soft</em> side. </p>
 
+    <!-- Cookie preference -->
+    <h3>How do you like your snickerdoodles?</h3>
+    <textarea name="coockiepreference" rows="2" cols="40">I like a little crunch on the edges, but soft in the middle!</textarea>
+    
     <!-- Ingredients -->
-    <p>This website would not have existed without
-    <a href="https://www.youtube.com/watch?v=nklRiQXkY9o&t=31s">this video.</a> </p>
     <div class="ingredients">
         <h3>Ingredients:</h3>
         <ul>
@@ -33,38 +35,78 @@
             <li>2 tsp of cinnamon.</li>
             <li>2 tsp cream of tartar.</li>
             <ul><strong>Pro tip: </strong> <em>Use 1 tsp of lemon juice!</em></ul>
-            <li>2 tsb of baking soda (I personally use 1).</li>
+            <li>2 tsb of baking soda <em> (I personally use 1). </em></li>
             <li>1/2 tsb of salt.</li>
         </ul>
     </div>
 
     <!-- Cookies for sale -->
-    <div class="table">
-        <h2>Buy some of mine!</h2>
-        <table border="1">
-            <thead>
-                <th>Cookies</th>
-                <th>Price</th>
-                <th>$ Per Cookie</th>
-            </thead>
-            <tr>
-                <td>12</td>
-                <td>$5.00</td>
-                <td>$0.60</td>
-            </tr>
-            <tr>
-                <td>25</td>
-                <td>$10.00</td>
-                <td>$0.40</td>
-            </tr>
-            <tr>
-                <td>50</td>
-                <td>$15.00</td>
-                <td>$0.30</td>
-            </tr>
-        </table>
+    <div class="cookiesale">
+        <!-- Price table -->
+        <div class="table">
+            <h2>Buy some of mine!</h2>
+            <table border="1">
+                <thead>
+                    <th>Cookies</th>
+                    <th>Price</th>
+                    <th>$ Per Cookie</th>
+                </thead>
+                <tr>
+                    <td>12</td>
+                    <td>$5.00</td>
+                    <td>$0.60</td>
+                    <td><img src="Happy-guy-eating-cookie-1.jpg" alt="Happy customer" width="100px" height="100px"></td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>$10.00</td>
+                    <td>$0.40</td>
+                    <td><img src="Happy-guy-eating-cookie-2.jpg" alt="Happy customer" width="100px" height="100px"></td>
+                </tr>
+                <tr>
+                    <td>50</td>
+                    <td>$15.00</td>
+                    <td>$0.30</td>
+                    <td><img src="Happy-girl-eating-cookie.jpg" alt="Happy customer" width="100px" height="100px"></td>
+                </tr>
+            </table>
+        </div>
+        <!-- Select purchase -->
+        <div class="buycookies">
+            <h3>Select your favorite option:</h3>
+            <select class="coockieselect" name="amount">
+                <option value="offer1">12 Cookies</option>
+                <option value="offer2">25 Cookies</option>
+                <option value="offer3">50 Cookies</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- User form-->
+    <div class="form">
+        
+        <form class="userinfo" action="/home/jgp/Documents/GitHub/Web-Practice/signedup.html" method="get">
+            <h2>Sign up for weekly snickerdoole updates!</h2>
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="Jeff@cookielover.com" required>
+            <label for="password">Password:</label>
+            <input type="password" name="password" required>
+            <label for="passwordconfirm">Confirm password:</label>
+            <input type="password" name="passwordconfirm" required>
+            <label for="comment">Any words you'd like to say?</label>
+            <input type="text" name="comment" placeholder="I love you mom!">
+            <label for="male">Male</label>
+            <input id="male" type="radio" name="gender" value="man">
+            <label for="male">Female</label>
+            <input id="female" type="radio" name="gender" value="woman">
+            <input type="submit" name="signup" value="Sign Up">
+        </form>
 
     </div>
+
+    <p>This website would not have existed without
+        <a href="https://www.youtube.com/watch?v=nklRiQXkY9o&t=31s">this video.</a>
+    </p>
 </body>
 
 </html>
