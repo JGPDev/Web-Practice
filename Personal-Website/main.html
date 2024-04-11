@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main-page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <title>JGP.com</title>
 </head>
+
 <body>
     <header>
         <h1>Welcome to My Personal Website</h1>
     </header>
 
-    <img id="portrait" src="Jeremy-portrait.jpg"  alt="A picture of me">
-    
-    <nav>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact Me</a></li>
-        </ul>
-    </nav>
+    <div class="column">
+        <div class="card">
+            <img src="Jeremy-portrait.jpg" alt="Jane" style="width:100%">
+            <div class="container">
+                <h2>Jane Doe</h2>
+                <p class="title">CEO & Founder</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>jane@example.com</p>
+            </div>
+        </div>
+    </div>
 
     <section id="about">
         <h2>About Me</h2>
@@ -41,4 +48,5 @@
         <p>&copy; 2023 My Personal Website. All rights reserved.</p>
     </footer>
 </body>
+
 </html>
