@@ -13,40 +13,91 @@
 </head>
 
 <body>
+
+    <!-- GREETINGS -->
     <header>
-        <h1>Welcome to My Personal Website</h1>
+        <br><br><h1>Welcome to My Personal Website!</h1>
     </header>
 
-    <div class="column">
-        <div class="card">
-            <img src="Jeremy-portrait.jpg" alt="Jane" style="width:100%">
-            <div class="container">
-                <h2>Jane Doe</h2>
-                <p class="title">CEO & Founder</p>
-                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                <p>jane@example.com</p>
+    <!-- NAV BAR -->
+    <div class="navbar">
+        <a href="main.html">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="future.html">Future Plans</a>
+    </div>
+      
+    <div class="main">
+        <p id="subtitle">Here you can read a little bit about me, my portfolio projects,
+             and future plans. Hope you enjoy!</p>
+
+        <!-- CARD -->
+        <div class="column">
+            <div class="card">
+                <img src="/home/jgp/Documents/GitHub/Web-Practice/Personal-Website/assets/Jeremy-portrait.jpg" alt="a picture of me" style="width:100%">
+                <div class="container">
+                    <h2>Jeremy Gonzalez Pizarro</h2>
+                    <p class="title">Computer Science Student @ PUPR</p>
+                </div>
             </div>
         </div>
+    
+        <!-- ABOUT ME -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p> Hello! I am a 22 year old senior year computer sciece student at the Polytechnic University of 
+                Puerto Rico. I'm currently working as IT Support at the Claro telecommunications company. Some of my interests
+                are: Music, Fintess, Reading, Self Improvement</p>
+            
+        </section>
+    
+        <!-- PORTFOLIO -->
+        <section id="portfolio">
+            <a href="portfolio.html"><h2>Portfolio</h2></a>
+            <p>Some of my work is showcased here:</p>
+            <table class="work">
+                <thead>
+                    <th>Name</th>
+                    <th>Brief Description</th>
+                    <th>Date</th>
+                </thead>
+                <tr>
+                    <td>Personal Website</td>
+                    <td>The website you are seeing right now! Built with only HTML and CSS.</td>
+                    <td>April, 2024</td>
+                </tr>
+                <tr>
+                    <td>PUPR Donations Website Rework</td>
+                    <td>Capstone project for the Polytechnic University of Puerto Rico. Handles donations and 
+                        facilitates its distribution.</td>
+                    <td>November, 2023 - Present</td>
+                </tr>
+                <tr>
+                    <td>Data Analysis Project (PowerBI)</td>
+                    <td>Create a PowerBI data report for Crane Army Ammunition Activity. Presented to One-Star 
+                        General of the Army.</td>
+                    <td>July, 2023 - August, 2023</td>
+                </tr>
+            </table>
+        </section>
+    
+        <!-- CONTACT -->
+        <br>
+        <br>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>You can contact me at jgonzalezggp@gmail.com</p>
+            <p> Or find me on my LinkedIn Page! 
+                <a href="https://www.linkedin.com/in/jeremy-gonzalez-8310bb211/">
+                <img id="linkedin" src="/home/jgp/Documents/GitHub/Web-Practice/Personal-Website/assets/LinkedIn.jpg" alt="LinkedIn page">
+                </a>
+            </p>
+            <footer class="footer">
+                <p>&copy; 2024 JGP.com All rights reserved.</p>
+            </footer>
+        </section>
+    
     </div>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>This is where you can write about yourself.</p>
-    </section>
-
-    <section id="portfolio">
-        <h2>Portfolio</h2>
-        <p>Showcase your work here.</p>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>You can contact me at example@email.com.</p>
-    </section>
-
-    <footer>
-        <p>&copy; 2023 My Personal Website. All rights reserved.</p>
-    </footer>
 </body>
 
 </html>
