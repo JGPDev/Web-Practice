@@ -1,28 +1,58 @@
+
+/* ------------ GENERAL ----------------*/
+body{
+  background-color: rgb(14, 39, 60);
+  color: rgb(235, 245, 238);
+  font-family: "Josefin Sans", sans-serif;
+}
+
+header{
+  text-align: center;
+  color: #f4ecd8
+}
+
+
+/* ------------ NAV BAR ----------------*/
 .navbar {
-    overflow: hidden; /* Specifies behavior for when text is outside of box or parent element */
-    background-color: rgb(132, 114, 114);
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-  }
-  
-  /* Links inside the navbar */
-  .navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change background on mouse-over */
-  .navbar a:hover {
-    background: #ddd;
-    color: black;
-  }
-  
-  /* Main content */
-  .main {
-    margin-top: 30px; /* Add a top margin to avoid content overlay */
-  }
+  overflow: hidden; /* Specifies behavior for when text is outside of box or parent element */
+  background-color: rgb(132, 114, 114);
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+
+/* ----------------- FOOTER ---------------*/
+footer {
+  font-size: 15px;
+}
+
+#contact{
+  background-color: rgb(7, 21, 32);
+  padding: 20px
+}
+
+#linkedin{
+  width: 17px;
+}
