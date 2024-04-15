@@ -1,8 +1,14 @@
 header{
     text-align: center;
     color: #d8f4dc
-}
-
+  }
+  
+  #subtitle{
+    text-align: center;
+    text-size-adjust: 20px;
+    border-bottom: 10px solid beige;
+    padding-bottom: 20px;
+  }
 
 
 body{
@@ -78,12 +84,6 @@ section p{
   margin-top: 30px; /* Add a top margin to avoid content overlay */
 }
 
-#subtitle{
-  text-align: center;
-  text-size-adjust: 20px;
-  border-bottom: 10px solid beige;
-  padding-bottom: 20px;
-}
 
 table, th, td, tr{
   border: 2px solid lightblue;

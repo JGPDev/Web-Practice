@@ -8,9 +8,9 @@ body{
 
 header{
     text-align: center;
-    color: #f4ecd8
+    color: #f4ecd8;
+    border-bottom: 10px solid beige;
 }
-
 
 /* ------------ NAV BAR ----------------*/
 .navbar {
@@ -46,6 +46,19 @@ header{
   #port1  img{
    width: 325px;
    height: 325px;
+   display: table;
+   margin-left: auto;
+   margin-right: auto;
+   float: center;
+  }
+
+  .portfolio-item {
+    justify-content: center
+  }
+  
+  .text {
+    font-size: 20px;
+    text-align: center;
   }
 
 
