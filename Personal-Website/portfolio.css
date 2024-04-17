@@ -9,7 +9,7 @@ body{
 header{
     text-align: center;
     color: #f4ecd8;
-    border-bottom: 10px solid beige;
+    border-bottom: 10px solid rgb(220, 232, 245);
 }
 
 /* ------------ NAV BAR ----------------*/
@@ -43,22 +43,29 @@ header{
   }
 
   /* -----------PORTFOLIO ITEMS--------------- */
-  #port1  img{
-   width: 325px;
-   height: 325px;
+
+  .portfolio-item{
+    border: solid 2px rgb(220, 232, 245);
+    text-align: center;
+    justify-content: center
+  }
+
+
+  .portfolio-item img{
+   width: 25%;
+   height: 25%;
    display: table;
    margin-left: auto;
    margin-right: auto;
-   float: center;
-  }
+  } 
 
-  .portfolio-item {
-    justify-content: center
-  }
+
   
   .text {
     font-size: 20px;
     text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
   }
 
 
