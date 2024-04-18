@@ -11,6 +11,10 @@ header{
   border-bottom: 10px solid rgb(220, 232, 245);
 }
 
+a{
+  color: rgb(18, 177, 135);
+}
+
 
 /* ------------ NAV BAR ----------------*/
 .navbar {
@@ -37,19 +41,65 @@ header{
   color: black;
 }
 
-/* --------------- IMAGE ------------------- */
-.head img{
+/* --------------- PROFESSIONAL BLOCK------------------- */
+
+.professional{
+  font-size: 20px;
+  float: center;
+  padding-right: 10%;
+  font-size: large;
+  border-bottom: 2px dashed rgb(220, 224, 245);;
+  padding-bottom: 1%;
+}
+
+.professional img{
   max-width: 25%;
   max-height:15%;
+  padding-right: 2%;
   float: left;
 }
 
-.head p{
-  font-size: 20px;
-  padding-left: 20px;
-  padding-top: 20%;
-  float: left;
+.professional p{
+  text-indent: 3%;
 }
+
+.professional ul{
+  padding-left: 30%;
+}
+
+/* -------------- PERSONAL BLOCK ----------- */
+.personal{
+  font-size: 20px;
+  float: center;
+  padding-right: 10%;
+  font-size: large;
+  padding-bottom: 1%;
+}
+
+.personal img{
+  max-width: 25%;
+  max-height:15%;
+  margin-left: 2px;
+  margin-right: 2px;
+  border: 2px solid rgb(223, 245, 220);;
+}
+
+#dad{
+  max-width: 19%;
+  max-height: 15%;
+}
+
+#EHALV {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.personal p{
+  text-indent: 3%;
+}
+
+.personal h2{
+  text-align: center;
 }
 
 
