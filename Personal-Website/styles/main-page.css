@@ -73,6 +73,10 @@ section p{
   text-decoration: none;
 }
 
+#change{
+  float: right
+}
+
 /* Change background on mouse-over */
 .navbar a:hover {
   background: #ddd;
@@ -92,6 +96,7 @@ table, th, td, tr{
   padding: 10px;
   margin-right: 100px;
 }
+
 
 /* -------- FOOTER -------*/
 footer {

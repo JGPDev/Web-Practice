@@ -35,6 +35,10 @@ a{
   text-decoration: none;
 }
 
+#change{
+  float: right
+}
+
 /* Change background on mouse-over */
 .navbar a:hover {
   background: #ddd;
@@ -49,7 +53,7 @@ a{
   padding-right: 10%;
   font-size: large;
   border-bottom: 2px dashed rgb(220, 224, 245);;
-  padding-bottom: 1%;
+  padding-bottom: 5%;
 }
 
 .professional img{
