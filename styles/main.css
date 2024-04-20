@@ -10,7 +10,9 @@ body{
     background: url(/home/jgp/Documents/GitHub/Web-Practice/site-background.jpg);
 }
 
-
+.btn-btn-success{
+    border: 2px solid black;
+}
 span{
     color: greenyellow;
     background-color: black;

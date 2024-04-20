@@ -6,23 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SnickerDoodlers</title>
     <link rel="stylesheet" href="/home/jgp/Documents/GitHub/Web-Practice/styles/main.css">
+    <!-- Bootstrap Connection-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#buy" class="navbar-brand">Buy cookies</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="#signup">Sign Up</a></li>
+            </ul>
+        </div>
+
     <!-- Cookie image with link -->
     <a href="https://www.youtube.com/watch?v=nklRiQXkY9o">
         <img src="Snickerdoodle.jpg" alt="Picture of yumyum cookies." width="400px" height="400px">
     </a>
 
     <!-- Welcome text -->
-    <h1>Welcome to the website! </h1>
-    <h2>We all love snickerdooles!</h2>
-    <p>My family <strong>loves </strong>when I make some. I personally like them a bit on the <em>soft</em> side. </p>
-
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Welcome to the website! </h1>
+            <h2>We all love snickerdooles!</h2>
+            <p>My family <strong>loves </strong>when I make some. I personally like them a bit on the <em>soft</em>
+                side.
+            </p>
+        </div>
+    </div>
     <!-- Cookie preference -->
     <h3 id="survey">How do you like your snickerdoodles?</h3>
-    <textarea name="coockiepreference" rows="2" cols="40">I like a little crunch on the edges, but soft in the middle!</textarea>
-    
+    <textarea name="coockiepreference" rows="2"
+        cols="40">I like a little crunch on the edges, but soft in the middle!</textarea>
+
     <!-- Ingredients -->
     <div class="ingredients">
         <h3>Ingredients:</h3>
@@ -42,11 +64,11 @@
     </div>
 
     <!-- Cookies for sale -->
-    <div class="cookiesale">
+    <div class="cookiesale" id="buy">
         <!-- Price table -->
         <div>
             <h2>Buy some of mine!</h2>
-            <table border="1"  class="table">
+            <table border="1" class="table">
                 <thead>
                     <th>Cookies</th>
                     <th>Price</th>
@@ -80,12 +102,14 @@
                 <option value="offer2">25 Cookies</option>
                 <option value="offer3">50 Cookies</option>
             </select>
+            <button type="button" class="btn btn-success">Buy Cookies</button>
+            <button type="button" class="btn btn-danger">Nevermind!</button>
         </div>
     </div>
 
     <!-- User form-->
-    <div class="form">
-        
+    <div class="form" id="signup">
+
         <form class="userinfo" action="/home/jgp/Documents/GitHub/Web-Practice/signedup.html" method="get">
             <h2>Sign up for weekly snickerdoole updates!</h2>
             <label for="email">Email:</label>
