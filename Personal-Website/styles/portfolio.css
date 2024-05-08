@@ -51,7 +51,7 @@ header{
   .portfolio-item{
     border-bottom: solid 2px rgb(220, 232, 245);
     text-align: center;
-    justify-content: center
+    justify-content: center;
   }
 
 
@@ -71,6 +71,11 @@ header{
     margin-right: 50px;
     margin-left: 50px;
   }
+
+  input {
+    margin-right: 25px;
+  }
+
 
 
 

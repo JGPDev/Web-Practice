@@ -31,6 +31,6 @@ function calculate(){
         score++;
     }
 
-    document.write("Your score is: "+ score +"/10")
-    
-}
+document.getElementById('results').innerHTML = 'Your score is: ' + score;
+
+}    
