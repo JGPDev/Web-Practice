@@ -1,0 +1,57 @@
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    border: solid 5px beige;
+}
+
+.navbar {
+    overflow: hidden; /* Specifies behavior for when text is outside of box or parent element */
+    background-color: rgb(132, 114, 114);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  #change{
+    float: right
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+
+
+body{
+    font-family: "Josefin Sans", sans-serif;
+    background-color: rgb(14, 39, 60);
+    color: rgb(235, 245, 238);
+}
+
+
+
+/**
+* Title
+*/
+h1{
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 50px;
+
+}
+
+}
+
