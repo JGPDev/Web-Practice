@@ -27,6 +27,7 @@ a:hover {
   color: rgb(18, 177, 135);
 }
 
+
 /* All p elements don't reach edge of screen */
 section p{
   margin-right: 100px;
