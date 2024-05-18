@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/home/jgp/Desktop/xml-HW/textbooks.xsl"?>
+<?xml-stylesheet href="textbooks.xsl" type="text/xsl"?>
 
-<textbooks>
+<textbooks xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNameSpaceSchemaLocation="textbooks.xsd">
     <book class="Database Systems"> 
         <title>A Guide To SQL, Ninth Edition</title>
         <publisher>Cengage Learning</publisher>

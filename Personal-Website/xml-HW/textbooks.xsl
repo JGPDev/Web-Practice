@@ -1,12 +1,12 @@
-<xsl:stylesheet version="1.0" 
-   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-   xmlns="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
 
   <xsl:template match="/textbooks">
     <html>
       <body>
-        <h2>Textbooks</h2>
-        <table border="1">
+        <h2 style="text-align: center;">Textbooks</h2>
+        <table border="1" style="margin: 0 auto;">
           <tr bgcolor="#9acd32">
             <th>Title</th>
             <th>Publisher</th>
