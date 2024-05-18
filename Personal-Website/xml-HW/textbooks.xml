@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/home/jgp/Desktop/xml-HW/textbooks.xsl"?>
+
+<textbooks>
+    <book class="Database Systems"> 
+        <title>A Guide To SQL, Ninth Edition</title>
+        <publisher>Cengage Learning</publisher>
+        <publisher-site>https://www.cengage.com</publisher-site>
+        <year>2014</year>
+        <ISBN>978-1-111-52727-3</ISBN>
+        <authorsFName>Philip, Mary</authorsFName>
+        <authorsLName>Pratt, Last</authorsLName>
+        <coverType>Digital</coverType>
+    </book>
+    <book class="Assembly">
+        <title>Assembly Language FOr X86 Processors, Seventh Edition</title>
+        <publisher>Pearson Education</publisher>
+        <publisher-site>https://www.pearson.com</publisher-site>
+        <year>2015</year>
+        <ISBN>978-0-13-376940-1</ISBN>
+        <authorsFName>Kip</authorsFName>
+        <authorsLName>Irvine</authorsLName>
+        <coverType>Digital</coverType>
+    </book>
+    <book class="Physics I Lab">
+        <title>Physics Laboratory Experiments, Sixth Edition</title>
+        <publisher>Houghton Mifflin Company</publisher>
+        <publisher-site>https://www.hmhco.com</publisher-site>
+        <year>2005</year>
+        <ISBN>123456789-CCI-08</ISBN>
+        <authorsFName>Jerry, Cecilia</authorsFName>
+        <authorsLName>Wilson, Hernadez</authorsLName>
+        <coverType>Digital</coverType>
+    </book>
+    <book class="Physics I Lab">
+        <title>2nd Edition General Physics Student Manual</title>
+        <publisher>eScience Labs</publisher>
+        <publisher-site>efe</publisher-site>
+        <year>2014</year>
+        <ISBN>888-ESL-KITS</ISBN>
+        <authorsFName>eScience Labs, LLC</authorsFName>
+        <authorsLName></authorsLName>
+        <coverType>Digital</coverType>
+    </book>
+    <book class="Data Structures">
+        <title>Data Abstraction and Problem Solving with C++, Sixth Edition</title>
+        <publisher>Pearson Education</publisher>
+        <publisher-site>https://www.pearson.com</publisher-site>
+        <year>2013</year>
+        <ISBN>978-0-13-292372-9</ISBN>
+        <authorsFName>Frank, Timothy</authorsFName>
+        <authorsLName>Carrano, Henry</authorsLName>
+        <coverType>Digital</coverType>
+    </book>
+    <book class="Data Structures">
+        <title>Starting out with C++. From Control Structures through Objects, Eight Edition</title>
+        <publisher>Pearson Education</publisher>
+        <publisher-site>https://www.pearson.com</publisher-site>
+        <year>2015</year>
+        <ISBN>978-0-13-376939-5</ISBN>
+        <authorsFName>Tony</authorsFName>
+        <authorsLName>Gaddis</authorsLName>
+        <coverType>Digital</coverType>
+    </book>
+    
+</textbooks>
